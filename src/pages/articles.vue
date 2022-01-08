@@ -34,11 +34,11 @@
   </div>
 </template>
 <style>
-.body {
+/* .body {
   padding-top: 60px;
   padding-left: 60px;
   padding-right: 60px;
-}
+} */
 .top {
   display: flex;
 }

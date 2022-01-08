@@ -46,9 +46,10 @@
         <div class="sentences">
           <p>
             With over 2 years of hands-on experience in building responsive web
-            applications for B2B and B2C services, I specialise in user-centred
-            design, creating brand identities, and User Interfaces (Websites,
-            dashboards, and mobile app design.
+            applications for B2B and B2C services, I am a web designer &
+            front‑end developer focused on crafting clean & user‑friendly
+            experiences, I am passionate about building excellent software that
+            improves the lives of those around me
           </p>
         </div>
         <div class="sentences-2">
@@ -59,16 +60,15 @@
         <div class="sentences-3">
           <p>
             real-user insights and behavior) and I am passionate about helping
-            businesses create engaging products that enable users to interact
-            directly with their brands.
+            businesses create engaging web applications that enable users to
+            interact directly with their brands.
           </p>
         </div>
         <div class="sentences-4">
           <p>
-            I also possess massive experience in not just product designs and
-            implementation but also in digital marketing and website
-            development. In my current role, I and my team of brilliant
-            designers use excellent research, development, and product design
+            I build websites with a focus on responsive design and
+            accessibility. In my current role, I and my team of brilliant
+            developers use excellent research, development, and programming
             skills to identify a user’s precise needs. After this, we utilize
             our skill sets, training, and experience to come up with the
             required cutting-edge products. You can bet that a users’ needs will
@@ -80,12 +80,9 @@
         </div>
         <div class="sentences-5">
           <p>
-            Identifying improved approaches and enhanced solutions to business
-            challenges are activities that drive and inspire me. Exploration,
-            pursuit and motivation are my frameworks for success. I believe that
-            fresh perspectives and trying new techniques help businesses evolve
-            and grow. my goal is to be on the cutting-edge of industry
-            advancements.
+            DON'T BE SHY ! Feel free to get in touch with me. I am always open
+            to discussing new projects, creative ideas or opportunities to be
+            part of your visions.
           </p>
         </div>
 

@@ -63,10 +63,10 @@
   </div>
 </template>
 <style>
-.body {
+/* .body {
   padding-left: 80px;
   padding-right: 80px;
-}
+} */
 .head {
   width: 418px;
   text-align: left;

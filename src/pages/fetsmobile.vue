@@ -398,10 +398,10 @@
   </div>
 </template>
 <style>
-.body {
+/* .body {
   padding-left: 70px;
   padding-right: 70px;
-}
+} */
 .back-to {
   float: right;
 }

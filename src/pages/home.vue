@@ -6,7 +6,7 @@
 
     <!-- about amaka  -->
     <div class="row about">
-      <div class="col-md-6">
+      <div class="col-md-6 my-intro">
         <h1
           class="my-name"
           data-toggle="animation"
@@ -62,7 +62,7 @@
 
         <h3 class="fets"><b>Weather App</b></h3>
         <p class="fets-title">Vue Js</p>
-        <div class="fettss">
+        <div>
           <p class="about-fets">
             An API-Connected Application that detects the temperature in your
             desired city, and changes background based on the result.
@@ -196,16 +196,15 @@
 <script></script>
 
 <style scoped>
-/* .about {
-  padding-left: 60px;
-  padding-right: 60px;
-} */
 .body {
   background-color: #f5f5dd;
+  padding-left: 25px;
+  /* padding: clamp(1em, 5vw, 5em); */
 }
+
 .my-name {
   font-weight: 1000;
-  font-size: 70px;
+  font-size: clamp(40px, 6vw, 70px);
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3.2px;
   color: #8b4411;
@@ -213,7 +212,7 @@
 }
 .occupation {
   font-weight: 800;
-  font-size: 30px;
+  font-size: 2vw;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
   color: #8b4411;
@@ -231,7 +230,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: clamp(1em, 2vw, 2em);
   top: 0;
   position: relative;
   animation: slide 9s steps(2) infinite;
@@ -274,13 +273,13 @@
   height: 50%;
 } */
 .dp {
-  margin-top: -60px;
+  /* margin-top: -10px; */
   width: 90%;
 }
 .project-highlight {
   text-align: left;
   font-family: "Montserrat", sans-serif;
-  font-size: 70px;
+  font-size: clamp(40px, 6vw, 70px);
   font-weight: 800;
   letter-spacing: 3.04px;
   color: #cc9767;
@@ -356,7 +355,7 @@
 .about-fets {
   text-align: left;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: clamp(1em, 2vw, 1.2em);
   letter-spacing: 0.58px;
   color: #b3aeae;
   text-transform: capitalize;
