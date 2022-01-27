@@ -58,11 +58,11 @@
               >About Me</router-link
             >
           </li>
-          <li>
+          <!-- <li>
             <router-link to="/casestudy" tag="li" class="nav-item"
               >Case Studies</router-link
             >
-          </li>
+          </li> -->
 
           <li>
             <router-link to="/articles" tag="li" class="nav-item"

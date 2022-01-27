@@ -111,7 +111,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <!-- <div class="col-md-4">
         <a>
           <img
             src="../assets/megalek.png"
@@ -126,11 +126,8 @@
         <br />
         <h3 class="fets"><b>MEGALEK HOSPITAL TMS</b></h3>
         <p class="fets-title">Web Application, Prototype</p>
-        <!-- <p class="about-fets">
-            A Project Used To Monitor Transactions, Create Settlements And User
-            Managements
-          </p> -->
-      </div>
+        
+      </div> -->
     </div>
     <br />
 
