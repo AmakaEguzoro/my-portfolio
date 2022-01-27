@@ -47,9 +47,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li>
-            <router-link to="/" tag="li" class="nav-item"
-              >Eguzoro Chimamaka</router-link
-            >
+            <router-link to="/" tag="li" class="nav-item"></router-link>
           </li>
         </ul>
         <ul class="my-2 navbar-nav">

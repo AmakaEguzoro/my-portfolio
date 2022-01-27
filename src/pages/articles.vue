@@ -2,7 +2,6 @@
   <div class="body">
     <div class="top">
       <h1 class="article">Articles</h1>
-      <img src="../assets/pencil.png" height="200px" alt="" class="pencil" />
     </div>
 
     <div class="season">
@@ -28,9 +27,6 @@
         <router-link to="" class="reads"> Read More</router-link>
       </div>
     </div>
-    <br />
-    <br />
-    <br />
   </div>
 </template>
 <style>
@@ -52,13 +48,11 @@
   text-transform: capitalize;
   opacity: 1;
   letter-spacing: 3.2px;
-  color: #333333;
+
   text-transform: capitalize;
   opacity: 1;
 }
-.pencil {
-  margin-top: -60px;
-}
+
 .season {
   float: right;
   font-family: "Montserrat", sans-serif;

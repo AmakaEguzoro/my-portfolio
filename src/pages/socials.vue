@@ -10,10 +10,10 @@
         <p class="rights">Developed by <b>Eguzoro Chimamaka</b></p>
       </div>
       <div class="col-md-3 socials">
-        <a href="">
+        <a href="https://instagram.com/techwithnace?utm_medium=copy_link">
           <img src="../assets/instagram.png" alt="" />
         </a>
-        <a href="">
+        <a href="http://linkedin.com/in/chimamaka-eguzoro-4906791a0">
           <img src="../assets/linkedin.png" alt="" />
         </a>
         <a href="">

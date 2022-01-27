@@ -1,6 +1,11 @@
 <template>
   <div class="body">
     <br />
+    <ul class="homepage">
+      <li>
+        <router-link to="/" tag="li">Back to homepage</router-link>
+      </li>
+    </ul>
 
     <div>
       <h1 class="about-me">About Me</h1>
@@ -115,8 +120,8 @@
 <style>
 .body {
   background-color: #f5f5dd;
-  /* padding-left: 60px;
-  padding-right: 60px; */
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .about-me {
   text-align: left;
@@ -127,6 +132,13 @@
   color: #472a28;
   text-transform: capitalize;
   opacity: 1;
+}
+.homepage {
+  font-size: 1.2rem;
+  float: right;
+  font-weight: 600;
+  color: #472a28;
+  list-style: none;
 }
 .intro {
   text-align: left;

@@ -94,7 +94,7 @@
               src="../assets/powerdeal.png"
               alt=""
               class="fets-mobile"
-              width="776px"
+              width="80%"
               height="400px"
           /></router-link>
         </div>
@@ -138,7 +138,7 @@
         <img src="../assets/Angular.svg" width="15%" alt="" />
         <img src="../assets/vue-9.svg" width="15%" alt="" />
         <img src="../assets/reactt.svg" width="15%" alt="" />
-        <img src="../assets/nodee.png" width="15%" alt="" />
+        <!-- <img src="../assets/nodee.png" width="15%" alt="" /> -->
       </div>
     </div>
     <br />
