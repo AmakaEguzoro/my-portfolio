@@ -45,11 +45,19 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="mr-auto navbar-nav">
+          <li>
+            <router-link to="/" tag="li" class="nav-item logo"
+              >Eguzoro Chimamaka</router-link
+            >
+          </li>
+        </ul>
+
+        <!-- <ul class="my-2 navbar-nav">
           <li>
             <router-link to="/" tag="li" class="nav-item"></router-link>
           </li>
-        </ul>
+        </ul> -->
         <ul class="my-2 navbar-nav">
           <li>
             <router-link to="/about" tag="li" class="nav-item"
@@ -86,6 +94,16 @@
   color: #8b4411;
   text-transform: capitalize;
   opacity: 1;
+}
+.logo {
+  padding: 20px;
+  /* font: Aileron; */
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #b46e3c;
+  text-transform: capitalize;
+  opacity: 1;
+  font-family: "Smooch Sans", sans-serif;
 }
 nav li:hover,
 nav li.router-link-active,

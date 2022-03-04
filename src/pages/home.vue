@@ -29,6 +29,16 @@
             Download CV
           </button>
         </a>
+        <!-- <br />
+        <br />
+        <br />
+        <br />
+        <div class="social-media">
+          <i class="fa fa-github fa-3x"></i>
+          <i class="fa fa-linkedin fa-3x"></i>
+          <i class="fa fa-envelope fa-3x"></i>
+          <i class="fa fa-instagram fa-3x"></i>
+        </div> -->
       </div>
 
       <div class="col-md-6">
@@ -116,7 +126,9 @@
     <div>
       <div class="row">
         <div class="col-md-4">
-          <p class="fets"><b>Venner Woods</b></p>
+          <a class="fets" href="https://veneerwoods.netlify.app/"
+            ><b>Venner Woods</b></a
+          >
           <p class="about-project">
             A simple landing page website built for the popular wood vendor,
             VENNER WOODS Lagos.
@@ -178,7 +190,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(0.87em, 2vw, 2em);
+  font-size: clamp(0.85em, 2vw, 2em);
   top: 0;
   position: relative;
   animation: slide 9s steps(2) infinite;
@@ -228,6 +240,14 @@
   .dp {
     display: none;
   }
+}
+.my-intro {
+  padding-bottom: 150px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
 }
 .project-highlight {
   text-align: left;
