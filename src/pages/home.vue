@@ -33,11 +33,15 @@
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div class="social-media">
-          <i class="fa fa-github fa-3x"></i>
-          <i class="fa fa-linkedin fa-3x"></i>
-          <i class="fa fa-envelope fa-3x"></i>
-          <i class="fa fa-instagram fa-3x"></i>
+          <i class="fa fa-github fa-2x"></i>
+          <i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-envelope fa-2x"></i>
+          <i class="fa fa-instagram fa-2x"></i>
         </div> -->
       </div>
 
@@ -180,7 +184,7 @@
 }
 
 .wrapper .dynamic-txts {
-  margin-left: -30px;
+  margin-left: -40px;
   line-height: 60px;
   height: 60px;
   overflow: hidden;
@@ -190,7 +194,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(0.85em, 2vw, 2em);
+  font-size: clamp(0.8em, 2vw, 2em);
   top: 0;
   position: relative;
   animation: slide 9s steps(2) infinite;
@@ -242,7 +246,7 @@
   }
 }
 .my-intro {
-  padding-bottom: 150px;
+  padding-bottom: 260px;
 }
 
 .social-media {
@@ -260,7 +264,7 @@
 }
 .weather-slides {
   width: 60%;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 @media all and (max-width: 480px) {
   .weather-slides {
@@ -341,7 +345,7 @@
   opacity: 1;
 }
 .tams {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .tms {
   border-radius: 7px;
