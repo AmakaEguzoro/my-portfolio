@@ -86,49 +86,7 @@
     </div>
     <br />
     <br />
-    <div class="row">
-      <div class="col-md-8">
-        <div class="hover-zoom">
-          <router-link to="/powerdeal">
-            <img
-              src="../assets/powerdeal.png"
-              alt=""
-              class="fets-mobile"
-              width="80%"
-              height="400px"
-          /></router-link>
-        </div>
-        <br />
-        <br />
-        <br />
-        <h3 class="fets"><b>Powerdeals</b></h3>
-        <p class="fets-title">Web Application, Case Study</p>
-        <div class="fettss">
-          <p class="about-fets">
-            Power Deal Is An Electricity Bill Payment Service That Enables You
-            Recharge And Buy Power Conveniently.
-          </p>
-        </div>
-      </div>
 
-      <!-- <div class="col-md-4">
-        <a>
-          <img
-            src="../assets/megalek.png"
-            alt=""
-            class="tms"
-            width="398px"
-            height="400px"
-          />
-        </a>
-        <br />
-        <br />
-        <br />
-        <h3 class="fets"><b>MEGALEK HOSPITAL TMS</b></h3>
-        <p class="fets-title">Web Application, Prototype</p>
-        
-      </div> -->
-    </div>
     <br />
 
     <div>
@@ -147,13 +105,6 @@
         <div class="col-md-9">
           <div class="another-heading">
             <h1 class="interests">Some More Interesting Projects</h1>
-
-            <img
-              src="../assets/Line 3.svg"
-              width="500px"
-              alt=""
-              class="red-line"
-            />
           </div>
         </div>
       </div>
@@ -227,7 +178,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(1em, 2vw, 2em);
+  font-size: clamp(0.87em, 2vw, 2em);
   top: 0;
   position: relative;
   animation: slide 9s steps(2) infinite;
@@ -273,6 +224,11 @@
   /* margin-top: -10px; */
   width: 90%;
 }
+@media (max-width: 40em) {
+  .dp {
+    display: none;
+  }
+}
 .project-highlight {
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -284,6 +240,12 @@
 }
 .weather-slides {
   width: 60%;
+  padding-left: 30px;
+}
+@media all and (max-width: 480px) {
+  .weather-slides {
+    width: 100%;
+  }
 }
 #slider {
   overflow: hidden;
@@ -371,10 +333,9 @@
   }
 }
 .interests {
-  width: 622px;
   text-align: left;
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  font-size: clamp(40px, 6vw, 70px);
   font-weight: 700;
   letter-spacing: 2.04px;
   color: #d6d6d6;
@@ -389,12 +350,10 @@
   text-transform: capitalize;
   opacity: 1;
 }
-.another-heading {
+/* .another-heading {
   display: flex;
-}
-.red-line {
-  margin-top: 200px;
-}
+} */
+
 .tech {
   display: flex;
   justify-content: space-evenly;

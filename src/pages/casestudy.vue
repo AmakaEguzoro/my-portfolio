@@ -137,8 +137,8 @@
   text-transform: capitalize;
   opacity: 1;
 }
-.extra {
+/* .extra {
   padding-left: 200px;
   padding-right: 200px;
-}
+} */
 </style>
