@@ -29,7 +29,6 @@
             Download CV
           </button>
         </a>
-        <!-- <br />
         <br />
         <br />
         <br />
@@ -37,12 +36,21 @@
         <br />
         <br />
         <br />
+
         <div class="social-media">
-          <i class="fa fa-github fa-2x"></i>
-          <i class="fa fa-linkedin fa-2x"></i>
-          <i class="fa fa-envelope fa-2x"></i>
-          <i class="fa fa-instagram fa-2x"></i>
-        </div> -->
+          <a href="https://github.com/AmakaEguzoro">
+            <i class="fa fa-github fa-2x social-icon"></i>
+          </a>
+          <a href="http://linkedin.com/in/chimamaka-eguzoro-4906791a0">
+            <i class="fa fa-linkedin fa-2x social-icon"></i
+          ></a>
+          <a href="mailto:eguzoroa@gmail.com">
+            <i class="fa fa-envelope fa-2x social-icon"></i
+          ></a>
+          <a href="https://instagram.com/techwithnace?utm_medium=copy_link"
+            ><i class="fa fa-instagram fa-2x social-icon"></i
+          ></a>
+        </div>
       </div>
 
       <div class="col-md-6">
@@ -84,7 +92,7 @@
         </div>
       </div>
       <div class="col-md-4 tams">
-        <a href="">
+        <a href="https://amakacreditcardvalidation.netlify.app/">
           <img src="../assets/credit-card.png" alt="" class="tms" />
         </a>
         <br />
@@ -252,6 +260,13 @@
 .social-media {
   display: flex;
   justify-content: space-evenly;
+}
+.social-icon {
+  color: #8b4411;
+  transition: transform 0.2s;
+}
+.social-icon:hover {
+  transform: scale(1.5);
 }
 .project-highlight {
   text-align: left;

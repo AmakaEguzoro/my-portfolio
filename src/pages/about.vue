@@ -1,11 +1,11 @@
 <template>
   <div class="body">
     <br />
-    <ul class="homepage">
+    <!-- <ul class="homepage">
       <li>
         <router-link to="/" tag="li">Back to homepage</router-link>
       </li>
-    </ul>
+    </ul> -->
 
     <div>
       <h1 class="about-me">About Me</h1>
