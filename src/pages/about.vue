@@ -1,11 +1,6 @@
 <template>
   <div class="body">
     <br />
-    <!-- <ul class="homepage">
-      <li>
-        <router-link to="/" tag="li">Back to homepage</router-link>
-      </li>
-    </ul> -->
 
     <div>
       <h1 class="about-me">About Me</h1>
@@ -43,6 +38,8 @@
           <p class="handle">AmakaEguzoro</p>
         </div>
         <br />
+        <br />
+        <br />
       </div>
       <br />
       <br />
@@ -54,40 +51,22 @@
             applications for B2B and B2C services, I am a web designer &
             front‑end developer focused on crafting clean & user‑friendly
             experiences, I am passionate about building excellent software that
-            improves the lives of those around me
-          </p>
-        </div>
-        <div class="sentences-2">
-          <p>
-            I believe people are at the center of every solution (understand
-          </p>
-        </div>
-        <div class="sentences-3">
-          <p>
-            real-user insights and behavior) and I am passionate about helping
-            businesses create engaging web applications that enable users to
-            interact directly with their brands.
-          </p>
-        </div>
-        <div class="sentences-4">
-          <p>
-            I build websites with a focus on responsive design and
-            accessibility. In my current role, I and my team of brilliant
-            developers use excellent research, development, and programming
-            skills to identify a user’s precise needs. After this, we utilize
-            our skill sets, training, and experience to come up with the
-            required cutting-edge products. You can bet that a users’ needs will
-            be at the core of all my design thinking. Right now, I am always
-            willing to work on an exciting project where I will genuinely
+            improves the lives of those around me I believe people are at the
+            center of every solution (understand real-user insights and
+            behavior) and I am passionate about helping businesses create
+            engaging web applications that enable users to interact directly
+            with their brands. I build websites with a focus on responsive
+            design and accessibility. In my current role, I and my team of
+            brilliant developers use excellent research, development, and
+            programming skills to identify a user’s precise needs. After this,
+            we utilize our skill sets, training, and experience to come up with
+            the required cutting-edge products. You can bet that a users’ needs
+            will be at the core of all my design thinking. Right now, I am
+            always willing to work on an exciting project where I will genuinely
             support and develop in every way possible to progress and develop my
-            career further.
-          </p>
-        </div>
-        <div class="sentences-5">
-          <p>
-            DON'T BE SHY ! Feel free to get in touch with me. I am always open
-            to discussing new projects, creative ideas or opportunities to be
-            part of your visions.
+            career further. DON'T BE SHY! Feel free to get in touch with me. I
+            am always open to discussing new projects, creative ideas or
+            opportunities to be part of your visions.
           </p>
         </div>
 
@@ -106,15 +85,6 @@
         <img src="../assets/eguzoro-amaka.png" width="280px" alt="" />
       </div>
     </div>
-    <!-- <p class="tools">Tools</p>
-    <div class="logos">
-      <img src="../assets/adobe.png" alt="" class="adobe" />
-      <img src="../assets/figma.png" alt="" class="figma" />
-      <img src="../assets/sketch.png" alt="" class="sketch" />
-      <img src="../assets/zeplin.png" alt="" class="zeplin" />
-    </div> -->
-
-    <br />
   </div>
 </template>
 <style>
@@ -158,42 +128,7 @@
   opacity: 1;
   width: min(500px, 100%);
 }
-.sentences-2 {
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.51px;
-  color: #868686;
-  opacity: 1;
-  width: min(500px, 100%);
-}
-.sentences-3 {
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.51px;
-  color: #868686;
-  opacity: 1;
-  width: min(500px, 100%);
-}
-.sentences-4 {
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.51px;
-  color: #868686;
-  opacity: 1;
-  width: min(500px, 100%);
-}
-.sentences-5 {
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.51px;
-  color: #868686;
-  opacity: 1;
-  width: min(500px, 100%);
-}
+
 .demola-resume {
   display: flex;
   justify-content: space-evenly;
