@@ -68,15 +68,15 @@
             am always open to discussing new projects, creative ideas or
             opportunities to be part of your visions.
           </p>
-        </div>
 
-        <div class="demola-resume">
-          <p class="worker">Interested In Working With Me?</p>
-          <a
-            href="https://drive.google.com/file/d/1v9o-DJ8lkRdR1aeDXVdsGzu2dusZngda/view?usp=sharing"
-          >
-            <img src="../assets/download-resume.svg" alt="" />
-          </a>
+          <div class="demola-resume">
+            <p class="worker">Interested In Working With Me?</p>
+            <a
+              href="https://drive.google.com/file/d/1v9o-DJ8lkRdR1aeDXVdsGzu2dusZngda/view?usp=sharing"
+            >
+              <img src="../assets/download-resume.svg" alt="" />
+            </a>
+          </div>
         </div>
 
         <br />
@@ -131,7 +131,7 @@
 
 .demola-resume {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .worker {
   font-family: "Montserrat", sans-serif;
