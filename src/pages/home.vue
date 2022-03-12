@@ -340,7 +340,7 @@
 }
 .tms {
   border-radius: 7px;
-  width: 120%;
+  width: 100%;
 }
 @media all and (max-width: 480px) {
   .tms {
