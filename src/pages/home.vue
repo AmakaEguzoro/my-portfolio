@@ -110,7 +110,7 @@
         </div>
       </div> -->
       <div class="col-md-4 tams">
-        <a href="https://amakacreditcardvalidation.netlify.app/">
+        <a href="https://validcredit-card.netlify.app/">
           <img src="../assets/credit-card.png" alt="" class="tms" />
         </a>
         <br />
