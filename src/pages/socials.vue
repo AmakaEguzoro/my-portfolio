@@ -7,7 +7,7 @@
         <p class="rights">All rights Reserved</p>
       </div>
       <div class="col-md-6 coders">
-        <p class="rights">Developed by <b>Eguzoro Chimamaka</b></p>
+        <p class="rights">Developed by <b>Eguzoro Chimamaka</b> with Vue Js</p>
       </div>
       <div class="col-md-3 socials">
         <a href="https://instagram.com/techwithnace?utm_medium=copy_link">

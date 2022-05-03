@@ -81,34 +81,10 @@
           <p class="about-fets">
             A Finance planing app that helps you track your Income and Expense
             at the click of a button. This Web Application is powered by
-            Speechly.
+            Speechly (which makes it speech to text).
           </p>
         </div>
       </div>
-      <!-- <div class="md-col-8 weather-slides">
-        <div id="slider">
-          <figure>
-            <a href="https://amaka-weather-app.netlify.app/">
-              <img src="../assets/weather-app.png" alt="" />
-              <img src="../assets/weather-app-day.png" alt="" />
-              <img src="../assets/weather-app.png" alt="" />
-              <img src="../assets/weather-app-day.png" alt="" />
-              <img src="../assets/weather-app.png" alt="" />
-            </a>
-          </figure>
-        </div>
-        <br />
-        <br />
-
-        <h3 class="fets"><b>Weather App</b></h3>
-        <p class="fets-title">Vue Js</p>
-        <div>
-          <p class="about-fets">
-            An API-Connected Application that detects the temperature in your
-            desired city, and changes background based on the result.
-          </p>
-        </div>
-      </div> -->
       <div class="col-md-4 tams">
         <a href="https://validcredit-card.netlify.app/">
           <img src="../assets/credit-card.png" alt="" class="tms" />
@@ -117,13 +93,49 @@
         <br />
         <br />
         <h3 class="fets"><b>Credit Card Validation App</b></h3>
-        <p class="fets-title">Angular</p>
+        <p class="fets-title">Vue Js</p>
         <p class="about-fets">
           This Application validates credit cards, identifies if it is a
           Mastercard, Visa or Verve card
         </p>
       </div>
     </div>
+    <br />
+
+    <div class="row">
+      <div class="md-col-8 weather-slides">
+        <a href="https://nace-admin.netlify.app/">
+          <img src="../assets/nace-admin.png" alt="" class="plan-wella" />
+        </a>
+
+        <br />
+        <br />
+
+        <h3 class="fets"><b>Nace Admin</b></h3>
+        <p class="fets-title">React Js</p>
+        <div>
+          <p class="about-fets">
+            An administrative dashboard that shows most important features in
+            react. From API Calls to proper grid display and routing.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 tams">
+        <a href="https://search-coin.netlify.app/">
+          <img src="../assets/cryptocurrency.webp" alt="" class="tms" />
+        </a>
+        <br />
+        <br />
+        <br />
+        <h3 class="fets"><b>Search Coin</b></h3>
+        <p class="fets-title">React Js</p>
+        <p class="about-fets">
+          This React application allows Nigerian users to view various coin
+          prices by calling an end point and converting to Naira.
+        </p>
+      </div>
+    </div>
+
     <br />
     <br />
 
