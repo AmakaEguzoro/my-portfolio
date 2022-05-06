@@ -46,4 +46,24 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+  /* footer {
+    margin-left: -70px;
+  } */
+  .coders {
+    text-align: center;
+    display: block;
+  }
+  .rights {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.51px;
+  }
+  .socials {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 </style>

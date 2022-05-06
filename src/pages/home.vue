@@ -23,7 +23,7 @@
           </ul>
         </div>
         <a
-          href="https://drive.google.com/file/d/1v9o-DJ8lkRdR1aeDXVdsGzu2dusZngda/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JzKJNgmKix9FJl5pfv2-dMRc5fE6epi0/view?usp=sharing"
         >
           <button type="button" class="btn btn-lg btn-outline-secondary cv-btn">
             Download CV
@@ -142,7 +142,7 @@
     <br />
 
     <div>
-      <h1 class="project-highlight">Technologies I work with</h1>
+      <h1 class="technologies">Technologies I work with</h1>
       <br />
       <div class="tech">
         <img src="../assets/Angular.svg" width="15%" alt="" />
@@ -299,6 +299,16 @@
   color: #cc9767;
   opacity: 1;
 }
+
+.technologies {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(40px, 6vw, 70px);
+  font-weight: 800;
+  letter-spacing: 3.04px;
+  color: #cc9767;
+  opacity: 1;
+}
 .weather-slides {
   width: 60%;
   padding-left: 20px;
@@ -384,5 +394,104 @@
 .tech {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+  .body {
+    background-color: #f5f5dd;
+    padding-left: 15px;
+  }
+
+  .my-name {
+    font-weight: 1000;
+    font-size: 3rem;
+    letter-spacing: 2.8px;
+  }
+
+  .dynamic-txts li {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+  .cv-btn {
+    margin-top: 40px;
+  }
+
+  .social-media {
+    /* margin-left: -57px; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .project-highlight {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-top: -100px;
+  }
+
+  .weather-slides {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .plan-wella {
+    border-radius: 7px;
+    width: 100%;
+  }
+  .fets-title {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.58px;
+    color: #b3aeae;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .about-fets {
+    width: 90%;
+  }
+  .tams {
+    padding-left: 20px;
+  }
+  .tms {
+    border-radius: 7px;
+    width: 100%;
+  }
+  .interests {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(40px, 6vw, 70px);
+    font-weight: 700;
+    letter-spacing: 2.04px;
+    color: #d6d6d6;
+    opacity: 1;
+  }
+  .about-project {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: #b3aeae;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .technologies {
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #cc9767;
+    opacity: 1;
+  }
+
+  .tech {
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 </style>
