@@ -104,7 +104,7 @@
 
     <div class="row">
       <div class="md-col-8 weather-slides">
-        <a href="https://nace-admin.netlify.app/">
+        <a href="https://nace-admin-site.netlify.app/">
           <img src="../assets/nace-admin.png" alt="" class="plan-wella" />
         </a>
 
